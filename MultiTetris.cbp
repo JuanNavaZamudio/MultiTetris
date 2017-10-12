@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MultiTetris" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MultiTetris" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MultiTetris" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="C:/mingw_lib/i686-w64-mingw32/include/SDL2" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2 -lSDL2_image -lSDL2_ttf" />
+			<Add directory="C:/mingw_lib/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="include/Board.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/Hud.h" />
+		<Unit filename="include/I.h" />
+		<Unit filename="include/InstructionsButton.h" />
+		<Unit filename="include/J.h" />
+		<Unit filename="include/L.h" />
+		<Unit filename="include/O.h" />
+		<Unit filename="include/Piece.h" />
+		<Unit filename="include/ProyectStrings.h" />
+		<Unit filename="include/S.h" />
+		<Unit filename="include/Square.h" />
+		<Unit filename="include/StartButton.h" />
+		<Unit filename="include/T.h" />
+		<Unit filename="include/Text.h" />
+		<Unit filename="include/Z.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Board.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Hud.cpp" />
+		<Unit filename="src/I.cpp" />
+		<Unit filename="src/InstructionsButton.cpp" />
+		<Unit filename="src/J.cpp" />
+		<Unit filename="src/L.cpp" />
+		<Unit filename="src/O.cpp" />
+		<Unit filename="src/Piece.cpp" />
+		<Unit filename="src/S.cpp" />
+		<Unit filename="src/Square.cpp" />
+		<Unit filename="src/StartButton.cpp" />
+		<Unit filename="src/T.cpp" />
+		<Unit filename="src/Text.cpp" />
+		<Unit filename="src/Z.cpp" />
+		<Unit filename="src/images/0.bmp" />
+		<Unit filename="src/images/1.bmp" />
+		<Unit filename="src/images/2.bmp" />
+		<Unit filename="src/images/gray.bmp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
